@@ -61,7 +61,8 @@
 
 .content .aboutme .personalpic .resizepp {
   width: 100%;
-  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .content .aboutme .personaltext {
@@ -86,10 +87,14 @@
 
 .content.skillset {
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
   min-height: 10rem;
+}
+
+.content.skillset img:first-child {
+  margin-left: 0;
 }
 
 .content.skillset .resize {
