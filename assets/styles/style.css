@@ -1,10 +1,8 @@
-/*
-    outline: 1px solid red */
-/* */
 .title {
   display: flex;
   background: #807171;
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
   justify-content: center;
   align-items: center;
   background-size: cover;
@@ -47,6 +45,7 @@
 .content {
   background: #807171;
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
   display: flex;
 }
 
