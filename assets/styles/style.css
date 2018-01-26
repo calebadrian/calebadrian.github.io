@@ -31,12 +31,17 @@
   background: url(https://images.unsplash.com/photo-1481241857164-e8483bce922d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1153e5f30ea6b4c404f787ae80242638&auto=format&fit=crop&w=1353&q=80) center center no-repeat;
 }
 
+.title.footer {
+  min-height: 6rem;
+}
+
 .title.footer .m-l-1 {
   margin-left: 1rem;
 }
 
 .title .bg-pri {
-  background: #807171;
+  background: rgba(128, 113, 113, 0.8);
+  padding: 1rem;
 }
 
 .content {
@@ -59,12 +64,24 @@
   padding: 1rem;
 }
 
+.content .aboutme .personaltext {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .content.workhistory {
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.content.workhistory .lastformat {
+  -webkit-margin-after: 0;
+}
+
+.content.workhistory .lastformat li:last-child p {
+  -webkit-margin-after: 0;
 }
 
 .content.skillset {
