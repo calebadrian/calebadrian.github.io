@@ -52,22 +52,20 @@
 
 .content .aboutme {
   align-items: center;
-  justify-content: center;
 }
 
-.content .aboutme .personalpic {
-  padding-left: -15px;
+.content .aboutme .personal {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.content .aboutme .personalpic .resizepp {
+.content .aboutme .personal .aboutformat {
+  text-align: center;
+  -webkit-margin-after: 0;
+}
+
+.content .aboutme .personal .resizepp {
   width: 100%;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.content .aboutme .personaltext {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .content.workhistory {
@@ -90,16 +88,8 @@
   justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
+  font-size: 5rem;
   min-height: 10rem;
-}
-
-.content.skillset img:first-child {
-  margin-left: 0;
-}
-
-.content.skillset .resize {
-  height: 5rem;
-  margin-left: 2rem;
 }
 
 .content.samples {

@@ -37,16 +37,14 @@ $secondary: rgb(255, 255, 255)
     display: flex
     .aboutme
         align-items: center
-        justify-content: center
-        .personalpic
-            padding-left: -15px
-            .resizepp
-                width: 100%
-                padding-top: 3rem
-                padding-bottom: 3rem
-        .personaltext
+        .personal
             padding-top: 3rem
             padding-bottom: 3rem
+            .aboutformat
+                text-align: center
+                -webkit-margin-after: 0
+            .resizepp
+                width: 100%
     &.workhistory
         flex-direction: column
         align-items: center
@@ -61,12 +59,8 @@ $secondary: rgb(255, 255, 255)
         justify-content: space-around
         text-align: center
         flex-wrap: wrap
+        font-size: 5rem
         min-height: 10rem
-        img:first-child
-            margin-left: 0
-        .resize
-            height: 5rem
-            margin-left: 2rem
     &.samples
         justify-content: space-around
         align-items: center
