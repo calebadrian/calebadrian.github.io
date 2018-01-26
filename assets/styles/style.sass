@@ -6,6 +6,8 @@ $secondary: rgb(0, 0, 0)
 
 .title
     display: flex
+    background: $primary
+    color: white
     justify-content: center
     align-items: center
     background-size: cover
@@ -21,10 +23,10 @@ $secondary: rgb(0, 0, 0)
     &.portfolio
         background: url(https://images.unsplash.com/photo-1481241857164-e8483bce922d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1153e5f30ea6b4c404f787ae80242638&auto=format&fit=crop&w=1353&q=80) center center no-repeat
     &.footer
-        background: grey
-        color: white
         .m-l-1
             margin-left: 1rem
+    .bg-pri
+        background: $primary
 
 .content
     background: $primary
@@ -42,13 +44,16 @@ $secondary: rgb(0, 0, 0)
         flex-direction: column
         align-items: center
         text-align: center
+        padding-top: 5rem
+        padding-bottom: 5rem
     &.skillset
         align-items: center
         justify-content: center
+        text-align: center
         flex-wrap: wrap
+        min-height: 10rem
         .resize
             height: 5rem
-            width: 5rem
             margin-left: 2rem
     &.samples
         justify-content: space-around
