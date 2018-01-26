@@ -1,7 +1,8 @@
 /*
     outline: 1px solid red
 /*
-$primary: cornflowerblue
+$primary: rgb(128, 113, 113)
+$secondary: rgb(0, 0, 0)
 
 .title
     display: flex
@@ -27,10 +28,16 @@ $primary: cornflowerblue
 
 .content
     background: $primary
+    color: white
     display: flex
-    .personalpic
-        background: url(http://placehold.it/500x500) center center no-repeat
-        background-size: cover
+    .aboutme
+        align-items: center
+        justify-content: center
+        .personalpic
+            padding-left: -15px
+            .resizepp
+                width: 100%
+                padding: 1rem
     &.workhistory
         flex-direction: column
         align-items: center

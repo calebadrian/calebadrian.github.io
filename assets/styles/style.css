@@ -39,13 +39,23 @@
 }
 
 .content {
-  background: cornflowerblue;
+  background: #807171;
+  color: white;
   display: flex;
 }
 
-.content .personalpic {
-  background: url(http://placehold.it/500x500) center center no-repeat;
-  background-size: cover;
+.content .aboutme {
+  align-items: center;
+  justify-content: center;
+}
+
+.content .aboutme .personalpic {
+  padding-left: -15px;
+}
+
+.content .aboutme .personalpic .resizepp {
+  width: 100%;
+  padding: 1rem;
 }
 
 .content.workhistory {
