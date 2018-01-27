@@ -5,28 +5,32 @@
   font-family: 'Roboto Condensed', sans-serif;
   justify-content: center;
   align-items: center;
-  background-size: cover;
-  min-height: 25rem;
+  min-height: 15rem;
 }
 
 .title.name {
-  background: url(https://images.unsplash.com/photo-1493708638467-241317300c83?ixlib=rb-0.3.5&s=23024847b0bbfc9d07eb671ba6ac6fd7&auto=format&fit=crop&w=1350&q=80) center center no-repeat;
+  background: url(../photos/bg-name.jpeg) center center no-repeat;
+  background-size: 100% auto;
 }
 
 .title.about {
-  background: url(https://images.unsplash.com/photo-1451256656121-9ffc0c898a49?ixlib=rb-0.3.5&s=ace8622c7094beceb5014dc585c62e18&auto=format&fit=crop&w=1350&q=80) center center no-repeat;
+  background: url(../photos/bg-about.jpeg) center center no-repeat;
+  background-size: 100% auto;
 }
 
 .title.work {
-  background: url(https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-0.3.5&s=872a83ba6a07ac43b3e7176337665316&auto=format&fit=crop&w=1350&q=80) center center no-repeat;
+  background: url(../photos/bg-work.jpeg) center center no-repeat;
+  background-size: 100% auto;
 }
 
 .title.skills {
-  background: url(https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=137b1b593ba99716c7cdefcfd300b064&auto=format&fit=crop&w=1350&q=80) center center no-repeat;
+  background: url(../photos/bg-skills.jpeg) center center no-repeat;
+  background-size: 100% auto;
 }
 
 .title.portfolio {
-  background: url(https://images.unsplash.com/photo-1481241857164-e8483bce922d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1153e5f30ea6b4c404f787ae80242638&auto=format&fit=crop&w=1353&q=80) center center no-repeat;
+  background: url(../photos/bg-portfolio.jpeg) center center no-repeat;
+  background-size: 100% auto;
 }
 
 .title.footer {
