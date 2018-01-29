@@ -12,19 +12,29 @@ $secondary: rgb(255, 255, 255)
     align-items: center
     min-height: 15rem
     &.name
-        background: url(../photos/bg-name.jpeg) center center no-repeat
+        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-name.jpeg)
+        background-repeat: no-repeat
+        background-position: center center
         background-size: 100% auto
     &.about
-        background: url(../photos/bg-about.jpeg) center center no-repeat
+        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-about.jpeg)
+        background-repeat: no-repeat
+        background-position: center center
         background-size: 100% auto
     &.work
-        background: url(../photos/bg-work.jpeg) center center no-repeat
+        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-work.jpeg)
+        background-repeat: no-repeat
+        background-position: center center
         background-size: 100% auto
     &.skills
-        background: url(../photos/bg-skills.jpeg) center center no-repeat
+        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-skills.jpeg)
+        background-repeat: no-repeat
+        background-position: center center
         background-size: 100% auto
     &.portfolio
-        background: url(../photos/bg-portfolio.jpeg) center center no-repeat
+        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-portfolio.jpeg)
+        background-repeat: no-repeat
+        background-position: center center
         background-size: 100% auto
     &.footer
         min-height: 6rem
@@ -41,9 +51,12 @@ $secondary: rgb(255, 255, 255)
     display: flex
     .aboutme
         align-items: center
+        padding-top: 3rem
+        padding-bottom: 3rem
         .personal
-            padding-top: 3rem
-            padding-bottom: 3rem
+            display: flex
+            align-items: center
+            justify-content: center
             .aboutformat
                 text-align: center
                 -webkit-margin-after: 0
