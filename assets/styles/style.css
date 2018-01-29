@@ -5,42 +5,42 @@
   font-family: 'Roboto Condensed', sans-serif;
   justify-content: center;
   align-items: center;
-  min-height: 15rem;
+  min-height: 22rem;
 }
 
 .title.name {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6)), url(../photos/bg-name.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .title.about {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6)), url(../photos/bg-about.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .title.work {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6)), url(../photos/bg-work.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .title.skills {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6)), url(../photos/bg-skills.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .title.portfolio {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6)), url(../photos/bg-portfolio.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .title.footer {
