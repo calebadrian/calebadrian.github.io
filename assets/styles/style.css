@@ -105,18 +105,29 @@
   text-align: center;
   flex-wrap: wrap;
   font-size: 5rem;
-  min-height: 10rem;
+  min-height: 7rem;
 }
 
 .content.samples {
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.content.samples .resizebig {
-  height: 20rem;
-  width: 20rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.content.samples .samplesformat {
+  min-height: 12rem;
+}
+
+.content.samples .samplesformat.port-1 {
+  background: url(../photos/portfolio-1.jpeg) center center no-repeat;
+  background-size: cover;
+}
+
+.content.samples .samplesformat.port-2 {
+  background: url(../photos/portfolio-2.jpeg) center center no-repeat;
+  background-size: cover;
+}
+
+.content.samples .samplesformat.port-3 {
+  background: url(../photos/portfolio-3.jpeg) center center no-repeat;
+  background-size: cover;
 }
