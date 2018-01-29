@@ -38,6 +38,8 @@ $secondary: rgb(255, 255, 255)
         background-size: 100% auto
     &.footer
         min-height: 6rem
+        .formatsocial
+            color: $secondary
         .m-l-1
             margin-left: 1rem
     .bg-pri
@@ -78,6 +80,11 @@ $secondary: rgb(255, 255, 255)
         flex-wrap: wrap
         font-size: 5rem
         min-height: 7rem
+        .icon
+            .iconformat
+                color: $secondary
+                font-size: 5rem
+           
     &.samples
         padding-top: 3rem
         padding-bottom: 3rem
@@ -86,12 +93,27 @@ $secondary: rgb(255, 255, 255)
             &.port-1
                 background: url(../photos/portfolio-1.jpeg) center center no-repeat
                 background-size: cover
+                &:hover
+                    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../photos/portfolio-1.jpeg)
+                    background-position: center center
+                    background-repeat: no-repeat
+                    background-size: cover
             &.port-2
                 background: url(../photos/portfolio-2.jpeg) center center no-repeat
                 background-size: cover
+                &:hover
+                    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../photos/portfolio-2.jpeg)
+                    background-position: center center
+                    background-repeat: no-repeat
+                    background-size: cover
             &.port-3
                 background: url(../photos/portfolio-3.jpeg) center center no-repeat
                 background-size: cover
+                &:hover
+                    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(../photos/portfolio-3.jpeg)
+                    background-position: center center
+                    background-repeat: no-repeat
+                    background-size: cover
         
         
 

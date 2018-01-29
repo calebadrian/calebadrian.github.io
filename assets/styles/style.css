@@ -47,6 +47,10 @@
   min-height: 6rem;
 }
 
+.title.footer .formatsocial {
+  color: white;
+}
+
 .title.footer .m-l-1 {
   margin-left: 1rem;
 }
@@ -108,6 +112,11 @@
   min-height: 7rem;
 }
 
+.content.skillset .icon .iconformat {
+  color: white;
+  font-size: 5rem;
+}
+
 .content.samples {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -122,12 +131,33 @@
   background-size: cover;
 }
 
+.content.samples .samplesformat.port-1:hover {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../photos/portfolio-1.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .content.samples .samplesformat.port-2 {
   background: url(../photos/portfolio-2.jpeg) center center no-repeat;
   background-size: cover;
 }
 
+.content.samples .samplesformat.port-2:hover {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../photos/portfolio-2.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .content.samples .samplesformat.port-3 {
   background: url(../photos/portfolio-3.jpeg) center center no-repeat;
+  background-size: cover;
+}
+
+.content.samples .samplesformat.port-3:hover {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../photos/portfolio-3.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
