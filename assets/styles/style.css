@@ -57,7 +57,7 @@
 
 .title .bg-pri {
   background: rgba(128, 113, 113, 0.8);
-  padding: 1rem;
+  padding: .75rem;
 }
 
 .content {
@@ -107,9 +107,7 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  flex-wrap: wrap;
-  font-size: 5rem;
-  min-height: 7rem;
+  min-height: 6rem;
 }
 
 .content.skillset .icon .iconformat {
@@ -132,7 +130,7 @@
 }
 
 .content.samples .samplesformat.port-1:hover {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../photos/portfolio-1.jpeg);
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../photos/portfolio-1.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +142,7 @@
 }
 
 .content.samples .samplesformat.port-2:hover {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../photos/portfolio-2.jpeg);
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../photos/portfolio-2.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,7 +154,7 @@
 }
 
 .content.samples .samplesformat.port-3:hover {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../photos/portfolio-3.jpeg);
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../photos/portfolio-3.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
