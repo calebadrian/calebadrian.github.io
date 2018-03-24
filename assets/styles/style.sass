@@ -1,117 +1,48 @@
 
-$primary: rgb(128, 113, 113)
-$primaryop: rgba(128, 113, 113, .8)
+$primary: rgb(50, 50, 50)
+$primaryop: rgba(50, 50, 50, .8)
 $secondary: rgb(255, 255, 255)
 
-.title
-    display: flex
-    background: $primary
-    color: $secondary
-    font-family: 'Roboto Condensed', sans-serif
-    justify-content: center
-    align-items: center
-    min-height: 22rem
-    &.name
-        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-name.jpeg)
-        background-repeat: no-repeat
-        background-position: center center
-        background-size: cover
-    &.about
-        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-about.jpeg)
-        background-repeat: no-repeat
-        background-position: center center
-        background-size: cover
-    &.work
-        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-work.jpeg)
-        background-repeat: no-repeat
-        background-position: center center
-        background-size: cover 
-    &.skills
-        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-skills.jpeg)
-        background-repeat: no-repeat
-        background-position: center center
-        background-size: cover 
-    &.portfolio
-        background: linear-gradient(rgba(255, 255, 255, .5), rgba(0, 0, 0, .6)), url(../photos/bg-portfolio.jpeg)
-        background-repeat: no-repeat
-        background-position: center center
-        background-size: cover 
-    &.footer
-        min-height: 6rem
-        .formatsocial
-            color: $secondary
-        .m-l-1
-            margin-left: 1rem
-    .bg-pri
-        background: $primaryop
-        padding: .75rem
+.bg-name
+    background: url('../photos/bg-name.jpeg') center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+.bg-about
+    background: url('../photos/bg-about.jpeg') center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+.bg-work
+    background: url('../photos/bg-work.jpeg') center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+.bg-skills
+    background: url('../photos/bg-skills.jpeg') center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+.bg-portfolio
+    background: url('../photos/bg-portfolio.jpeg') center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 
 .content
     background: $primary
     color: $secondary
-    font-family: 'Roboto Condensed', sans-serif
-    display: flex
-    .aboutme
-        align-items: center
-        padding-top: 3rem
-        padding-bottom: 3rem
-        .personal
-            display: flex
-            align-items: center
-            justify-content: center
-            .aboutformat
-                text-align: center
-                -webkit-margin-after: 0
-            .resizepp
-                width: 100%
-    &.workhistory
-        flex-direction: column
-        align-items: center
-        padding-top: 3rem
-        padding-bottom: 3rem
-        .lastformat
-            -webkit-margin-after: 0
-            li:last-child p
-                -webkit-margin-after: 0
-    &.skillset
-        align-items: center
-        justify-content: space-around
-        text-align: center
-        min-height: 6rem
-        .icon
-            .iconformat
-                color: $secondary
-                font-size: 5rem
-           
-    &.samples
-        padding-top: 3rem
-        padding-bottom: 3rem
-        .samplesformat
-            min-height: 12rem
-            &.port-1
-                background: url(../photos/portfolio-1.jpeg) center center no-repeat
-                background-size: cover
-                &:hover
-                    background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(../photos/portfolio-1.jpeg)
-                    background-position: center center
-                    background-repeat: no-repeat
-                    background-size: cover
-            &.port-2
-                background: url(../photos/portfolio-2.jpeg) center center no-repeat
-                background-size: cover
-                &:hover
-                    background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(../photos/portfolio-2.jpeg)
-                    background-position: center center
-                    background-repeat: no-repeat
-                    background-size: cover
-            &.port-3
-                background: url(../photos/portfolio-3.jpeg) center center no-repeat
-                background-size: cover
-                &:hover
-                    background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(../photos/portfolio-3.jpeg)
-                    background-position: center center
-                    background-repeat: no-repeat
-                    background-size: cover
+    min-height: 13vh;
+
+.resize
+    width: 100%
+    height: auto;
+    border: 5px solid white;
+
+.resize-icon
+    font-size: 5rem;
+
+h6
+    margin-bottom: 0;
         
         
 
