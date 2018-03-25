@@ -1,48 +1,75 @@
 
-$primary: rgb(50, 50, 50)
+$primary: #F4F4F4
 $primaryop: rgba(50, 50, 50, .8)
-$secondary: rgb(255, 255, 255)
+$secondary: #F4F4F4
+
+.header-format
+    margin-top: 50vh;
+    margin-left: 32vw;
 
 .bg-name
-    background: url('../photos/bg-name.jpeg') center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../photos/bg-name.jpeg') center center no-repeat;
     background-size: cover;
     min-height: 100vh;
+    color: $secondary
 
 .bg-about
-    background: url('../photos/bg-about.jpeg') center center no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-
-.bg-work
-    background: url('../photos/bg-work.jpeg') center center no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    background: #C0B283
+    color: $secondary
+    min-height: 100vh
 
 .bg-skills
-    background: url('../photos/bg-skills.jpeg') center center no-repeat;
+    background: $secondary
     background-size: cover;
     min-height: 100vh;
+    color: #373737
 
 .bg-portfolio
     background: url('../photos/bg-portfolio.jpeg') center center no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 50vh;
+    color: $secondary
 
 .content
     background: $primary
     color: $secondary
-    min-height: 13vh;
+    min-height: 20vh;
 
 .resize
     width: 100%
     height: auto;
-    border: 5px solid white;
 
 .resize-icon
     font-size: 5rem;
 
 h6
-    margin-bottom: 0;
+    margin-bottom: 0
+
+hr
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #C0b283;
+
+.light
+    border-color: $secondary
+
+.lighter-text
+    color: rgba(244, 244, 244, .9)
+
+.portfolio-link .overlay
+    background: rgba(75, 70, 51, .7)
+    color: #f4f4f4
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+
+.portfolio-link:hover .overlay
+    opacity: 1;
         
         
 
