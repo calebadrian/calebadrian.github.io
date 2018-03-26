@@ -1,3 +1,11 @@
+body {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.line {
+  line-height: 1.6;
+}
+
 .header-format {
   margin-top: 50vh;
 }
